@@ -3,15 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 4000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@circutor/react-ui": "0.3.1",
+    "@circutor/ui": "1.0.38",
+    "antd": "^5.13.3",
+    "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "sass": "^1.70.0"
   },
   "devDependencies": {
     "eslint": "^8",
