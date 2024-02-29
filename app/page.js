@@ -1,30 +1,26 @@
+'use client'
+
 import { CdsButton } from "@circutor/react-ui";
-
-import { Button } from 'antd';
-
-import { EditInline } from "./components/EditInline";
-
-
+import { useRouter } from 'next/navigation'
 
 export default function Home() {
 
-
+  const router = useRouter();
 
   return (
     <section>
-      <h1>Title</h1>
-      <p>Lorem alog</p>
-
+      
       <h4>Con el react cds button</h4>
       <CdsButton
         type="submit"
         buttonType="secondary"
         icon="chat-bubble-plus"
         iconPosition="left"
-        loading
       >
-        Button
+        example label
       </CdsButton>
+
+      with icon left and loader
       <CdsButton
         type="submit"
         buttonType="secondary"
@@ -33,15 +29,20 @@ export default function Home() {
         loading
       >
       </CdsButton>
-
-
-<h2>Antd</h2>
-<p></p>
-
-      <Button type="primary">Button</Button>
-
-      <EditInline text="algo" />
       
+      
+      <CdsButton
+        type="submit"
+        buttonType="ghost"
+        icon="arrow-right"
+        iconPosition="right"
+        onClick={() => router.push('/alarms')}
+      >
+        Go to alarms demo
+      </CdsButton>
+
+
+
     </section>
   );
 }
