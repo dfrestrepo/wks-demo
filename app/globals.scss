@@ -8,3 +8,24 @@ $config-icons-path-svg: "/fonts/CDSIcons.svg";
 
 @import '@circutor/ui/scss/common/cds-bundle.scss';
 
+
+* {
+    box-sizing: border-box;
+    font-family: "NettoPro";
+  }
+  strong{
+    font-family: "NettoPro-Bold";
+  }
+  html {
+    height: 100%;
+  }
+  body {
+    //TEMPORAL
+    background-color: var(--cds-color-background-deep);
+  }
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    display: none;
+  }
