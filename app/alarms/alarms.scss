@@ -127,7 +127,7 @@
       padding: $cds-spacing-50;
       &__title {
         width: 100%;
-        font-size: 1$cds-spacing-50;
+        font-size: 14px;
         font-weight: bold;
         margin-bottom: $cds-spacing-50;
         overflow: hidden;
@@ -206,27 +206,5 @@
         padding: $cds-spacing-0 $cds-spacing-50 $cds-spacing-100;
       }
     }
-  }
-}
-
-.content.small {
-  background-attachment: fixed;
-}
-
-.content {
-  &.small {
-    background-attachment: fixed;
-  }
-}
-
-.content {
-  .small {
-    background-attachment: fixed;
-  }
-}
-
-.content {
-  &--small {
-    background-attachment: fixed;
   }
 }
