@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@circutor/react-ui": "0.3.1",
-    "@circutor/ui": "1.0.38",
+    "@circutor/react-ui": "0.6.0",
+    "@circutor/ui": "1.1.0",
     "antd": "^5.13.3",
     "next": "14.1.0",
     "react": "^18",

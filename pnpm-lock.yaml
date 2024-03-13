@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@circutor/react-ui':
-    specifier: 0.3.1
-    version: 0.3.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: 0.6.0
+    version: 0.6.0(react-dom@18.2.0)(react@18.2.0)
   '@circutor/ui':
-    specifier: 1.0.38
-    version: 1.0.38
+    specifier: 1.1.0
+    version: 1.1.0
   antd:
     specifier: ^5.13.3
     version: 5.13.3(react-dom@18.2.0)(react@18.2.0)
@@ -104,19 +104,19 @@ packages:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  /@circutor/react-ui@0.3.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-mu8ZBw83FQImw5u4HKixGAFZ+7Gkjwrbup21H/+JsGN4b/6oM8lDcYT1+AQVrRHYjaE2gubnnHVxg8OvWU9hCw==}
+  /@circutor/react-ui@0.6.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Gk6R/BrOo7Pn3NnqPEGVGt1O+17p9LgnenjdGI/HbFUvC/0U47Cq6xsLYW+JYq9L+q+sK4vgR0HMa2G1nzJTqA==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@circutor/ui': 1.0.38
+      '@circutor/ui': 1.1.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@circutor/ui@1.0.38:
-    resolution: {integrity: sha512-stejcnkOJTKbD5/WWWRClho57EmDV6yXeTsF6TlWFg89mS/gxUaP5EDCuZf22R83QPC0W4v/dy0Ft49Pp6NTow==}
+  /@circutor/ui@1.1.0:
+    resolution: {integrity: sha512-5AXB3v1WHIlbRgCT6ZmuQmyNrOTB0PbP3MohbKuaBSLBHZlMRQ9iN6o4r1svGbXctDb5qb4QO1jEw2FbIfUtzw==}
     dev: false
 
   /@ctrl/tinycolor@3.6.1:
