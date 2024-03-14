@@ -40,6 +40,16 @@ export default function Home() {
       >
         Go to alarms demo
       </CdsButton>
+      
+      <CdsButton
+        type="submit"
+        buttonType="ghost"
+        icon="arrow-right"
+        iconPosition="right"
+        onClick={() => router.push('/notice')}
+      >
+        Go to notice demo
+      </CdsButton>
 
 
 
