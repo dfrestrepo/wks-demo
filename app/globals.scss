@@ -13,6 +13,7 @@ $config-icons-path-svg: "/fonts/CDSIcons.svg";
     box-sizing: border-box;
     font-family: "NettoPro";
   }
+
   strong{
     font-family: "NettoPro-Bold";
   }
@@ -22,6 +23,7 @@ $config-icons-path-svg: "/fonts/CDSIcons.svg";
   body {
     //TEMPORAL
     background-color: var(--cds-color-background-deep);
+    height: 100%;
   }
 
 ::-webkit-scrollbar {

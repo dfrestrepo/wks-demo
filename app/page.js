@@ -51,6 +51,15 @@ export default function Home() {
         Go to notice demo
       </CdsButton>
 
+      <CdsButton
+        type="submit"
+        buttonType="ghost"
+        icon="arrow-right"
+        iconPosition="right"
+        onClick={() => router.push('/nav')}
+      >
+        Go to nav demo
+      </CdsButton>
 
 
     </section>
