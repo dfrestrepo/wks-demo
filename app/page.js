@@ -1,7 +1,61 @@
 'use client'
 
 import { CdsButton } from "@circutor/react-ui";
-import { useRouter } from 'next/navigation'
+import { useRouter } from 'next/navigation';
+import {ListDemo} from './components/ListDemo';
+
+
+
+const dataToDisplayminim = [
+  {
+    title: "Title 1",
+  },
+  {
+    title: "Title 2",
+  },
+];
+const dataToDisplayflat = [
+  {
+    title: "Title 1",
+    value: "Value 1",
+  },
+  {
+    title: "Title 2",
+    value: "Value 2",
+  },
+];
+
+const dataToDisplayValue = [
+  {
+    title: "Title 1",
+    subtitle: "Subtitle 1",
+    value: "Value 1",
+  },
+  {
+    title: "Title 2",
+    subtitle: "Subtitle 2",
+    value: "Value 2",
+  },
+];
+
+const dataToDisplayAction = [
+  {
+    title: "Title 1",
+    subtitle: "Subtitle 1",
+    avatarIcon: "cds-ico-device",
+    iconAction: "cds-ico-edit",
+    actionClick: () => console.log("Click on action 1"),
+  },
+  {
+    title: "Title 2",
+    subtitle: "Subtitle 2",
+    avatarIcon: "cds-ico-device",
+    iconAction: "cds-ico-edit",
+    actionClick: () => console.log("Click on action 2"),
+  },
+];
+
+
 
 export default function Home() {
 
@@ -60,6 +114,18 @@ export default function Home() {
       >
         Go to nav demo
       </CdsButton>
+
+      <h4>Minimos</h4>
+      <ListDemo data={dataToDisplayminim} showTrailing={false}></ListDemo>
+      
+      <h4>Flat, solo titulo y valor</h4>
+      <ListDemo data={dataToDisplayflat}></ListDemo>
+      
+      <h4>subtitulo y valor</h4>
+      <ListDemo data={dataToDisplayValue}></ListDemo>
+
+      <h4>full con avatar y acción</h4>
+      <ListDemo data={dataToDisplayAction}></ListDemo>
 
 
     </section>

@@ -9,8 +9,8 @@ dependencies:
     specifier: 0.6.0
     version: 0.6.0(react-dom@18.2.0)(react@18.2.0)
   '@circutor/ui':
-    specifier: 1.1.0
-    version: 1.1.0
+    specifier: 1.3.0
+    version: 1.3.0
   antd:
     specifier: ^5.13.3
     version: 5.13.3(react-dom@18.2.0)(react@18.2.0)
@@ -110,13 +110,13 @@ packages:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@circutor/ui': 1.1.0
+      '@circutor/ui': 1.3.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@circutor/ui@1.1.0:
-    resolution: {integrity: sha512-5AXB3v1WHIlbRgCT6ZmuQmyNrOTB0PbP3MohbKuaBSLBHZlMRQ9iN6o4r1svGbXctDb5qb4QO1jEw2FbIfUtzw==}
+  /@circutor/ui@1.3.0:
+    resolution: {integrity: sha512-Q1N2VFCy++z7Y95XtJfD1d4y7SsoI8k0rNTJTCrGHH1UQ7XXs2e22stToi4up3aqrIpuH38Xq2N98ayeVbarew==}
     dev: false
 
   /@ctrl/tinycolor@3.6.1:
