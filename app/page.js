@@ -114,7 +114,17 @@ export default function Home() {
       >
         Go to nav demo
       </CdsButton>
-
+      
+      <CdsButton
+        type="submit"
+        buttonType="ghost"
+        icon="arrow-right"
+        iconPosition="right"
+        onClick={() => router.push('/home')}
+      >
+        Go to home card demo
+      </CdsButton>
+{/* 
       <h4>Minimos</h4>
       <ListDemo data={dataToDisplayminim} showTrailing={false}></ListDemo>
       
@@ -125,7 +135,7 @@ export default function Home() {
       <ListDemo data={dataToDisplayValue}></ListDemo>
 
       <h4>full con avatar y acción</h4>
-      <ListDemo data={dataToDisplayAction}></ListDemo>
+      <ListDemo data={dataToDisplayAction}></ListDemo> */}
 
 
     </section>

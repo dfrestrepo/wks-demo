@@ -1,0 +1,52 @@
+@import "@circutor/ui/scss/01-settings/_cds-variables.scss";
+
+p{
+    margin: 0px;
+}
+
+
+.card{
+    min-width: 100%;
+    border: 1px solid var(--cds-color-border-default);
+    border-radius: $cds-border-radius-50;
+    padding: $cds-spacing-50;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    &__header{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 8px;
+        h2{
+            width: calc(100% - 32px);
+            
+            white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+        }
+    }
+    &__info{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 4px;
+        &__left{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 4px;
+        }
+    }
+    &__image{
+        width: 100%;
+        background-color: var(--cds-color-background-deep);
+        border-radius: $cds-border-radius-50;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            height: 135px;
+        }
+    }
+}

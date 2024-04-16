@@ -1,0 +1,61 @@
+
+// Los mismos estilos del WKS
+
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 60px auto 59px;
+  gap: 0;
+  margin: 0 auto;
+  grid-template-areas:
+    "Header"
+    "Nav"
+    "Main"
+    "Aside";
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    grid-template-areas:
+      "Header Header"
+      "Nav Nav"
+      "Aside Main";
+    grid-template-rows: 79px 60px auto;
+    grid-template-columns: minmax(auto, 19rem) auto;
+  }
+}
+
+.main {
+    grid-area: Main;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    overflow: auto;
+    padding: 0 16px;
+  
+    h4 {
+      color: #737373;
+      margin: 1rem 0.5rem 0;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    // Tablet
+    @media only screen and (min-width: 1024px) {
+      margin-left: 0;
+      .main {
+        padding-right: 40px;
+      }
+  
+      .cardsSection {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 0.5fr));
+        margin-bottom: 30px;
+      }
+  
+      h4 {
+        margin-left: 0.5rem;
+        margin-top: 1.5rem;
+      }
+    }
+  }

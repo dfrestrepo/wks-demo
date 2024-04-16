@@ -1,0 +1,28 @@
+.home-main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 8px;
+}
+
+
+@media (min-width: 769px){
+    .home-main{
+        grid-template-columns: repeat(2, calc(50% - 8px));
+    }
+}
+
+
+@media (min-width: 1025px){
+    .home-main{
+        grid-template-columns: repeat(3, calc(33.33% - 8px));
+    }
+}
+
+
+@media (min-width: 1441px){
+    .home-main{
+        grid-template-columns: repeat(4, calc(25% - 8px));
+    }
+}
+
