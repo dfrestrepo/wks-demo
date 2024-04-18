@@ -1,4 +1,6 @@
 @import "@circutor/ui/scss/01-settings/_cds-variables.scss";
+@import "@circutor/ui/scss/02-tools/_cds-mixins.scss";
+
 
 p{
     margin: 0px;
@@ -20,6 +22,7 @@ p{
         flex-wrap: nowrap;
         gap: 8px;
         h2{
+            @include cds-paragraph-bold-m;
             width: calc(100% - 32px);
             
             white-space: nowrap;
