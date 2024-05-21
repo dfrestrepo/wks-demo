@@ -124,6 +124,15 @@ export default function Home() {
       >
         Go to home card demo
       </CdsButton>
+      <CdsButton
+        type="submit"
+        buttonType="ghost"
+        icon="arrow-right"
+        iconPosition="right"
+        onClick={() => router.push('/demo-components')}
+      >
+        Go to all components demo
+      </CdsButton>
 {/* 
       <h4>Minimos</h4>
       <ListDemo data={dataToDisplayminim} showTrailing={false}></ListDemo>
