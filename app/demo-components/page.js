@@ -7,6 +7,7 @@ import { CdsButton, CdsChip, CdsList, CdsNotice } from "@circutor/react-ui";
 import { CdsLoader } from "@circutor/react-ui";
 
 import "./demo-components.scss";
+import { CdsBanner } from "@circutor/react-ui";
 export default function Page() {
   const [count, setCount] = useState(0);
   const router = useRouter();
@@ -75,6 +76,29 @@ export default function Page() {
         Return
       </CdsButton>
       <div>
+        {/* Buttons */}
+        <details>
+          <summary>Banners</summary>
+          {/* Primary */}
+          <div className="details-row">
+            <CdsBanner
+              feedback="information"
+              title="Some title"
+              text="example of information banner"
+            />
+            <CdsBanner
+              feedback="error"
+              title="Some title"
+              text="example of error banner"
+            />
+            <CdsBanner
+              feedback="alert"
+              title="Some title"
+              text="example of alert banner"
+            />
+          </div>
+        </details>
+
         {/* Buttons */}
         <details>
           <summary>Buttons</summary>

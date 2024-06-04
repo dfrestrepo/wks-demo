@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@circutor/react-ui':
-    specifier: 1.1.1
-    version: 1.1.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: 1.2.0
+    version: 1.2.0(react-dom@18.2.0)(react@18.2.0)
   '@circutor/ui':
     specifier: 2.2.0
     version: 2.2.0
@@ -104,8 +104,8 @@ packages:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  /@circutor/react-ui@1.1.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-jtK5MmDP6XpDumO1aFF9ax1M9GNjMstSglHX0WSbHXgFK759sW5TNThpsHKsZCuJ5dhM2OT5I8MDpoHQ4Z7PYA==}
+  /@circutor/react-ui@1.2.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-N8Nbl9joSF5G1gfofPovb6OtiIFfDpbwWKlvBWssIXakkn6jmiVp6xA0tcDDwoYtdPQlI8mdg967Eq2ccUqANA==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
