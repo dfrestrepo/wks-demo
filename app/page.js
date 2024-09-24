@@ -68,7 +68,7 @@ export default function Home() {
       <CdsButton
         type="submit"
         buttonType="secondary"
-        icon="chat-bubble-plus"
+        icon="link"
         iconPosition="left"
       >
         example label
@@ -80,7 +80,6 @@ export default function Home() {
         buttonType="secondary"
         icon="chat-bubble-plus"
         iconPosition="left"
-        loading
       >
       </CdsButton>
       
