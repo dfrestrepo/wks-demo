@@ -1,10 +1,10 @@
 $config-typography-400-path: "/fonts/NettoPro.otf";
 $config-typography-700-path: "/fonts/NettoProBold.otf";
 
-$config-icons-path-eot: "/fonts/CDSIcons.eot";
-$config-icons-path-ttf: "/fonts/CDSIcons.ttf";
-$config-icons-path-woff: "/fonts/CDSIcons.woff";
-$config-icons-path-svg: "/fonts/CDSIcons.svg";
+$config-icons-path-eot: "~@circutor/ui/cdsicons/CDSIcons.eot";
+$config-icons-path-ttf: "~@circutor/ui/cdsicons/CDSIcons.ttf";
+$config-icons-path-woff: "~@circutor/ui/cdsicons/CDSIcons.woff";
+$config-icons-path-svg: "~@circutor/ui/cdsicons/CDSIcons.svg";
 
 @import "@circutor/ui/scss/common/cds-bundle.scss";
 

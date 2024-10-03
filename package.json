@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "@circutor/react-ui": "1.3.7",
-    "@circutor/ui": "3.1.0",
-    "antd": "^5.13.3",
+    "@circutor/ui": "3.2.0",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
