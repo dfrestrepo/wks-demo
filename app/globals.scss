@@ -1,10 +1,23 @@
-$config-typography-400-path: "/fonts/NettoPro.otf";
-$config-typography-700-path: "/fonts/NettoProBold.otf";
+$config-typography-400-path: "~@circutor/ui/font/NettoPro.otf";
+$config-typography-700-path: "~@circutor/ui/font/NettoProBold.otf";
 
 $config-icons-path-eot: "~@circutor/ui/cdsicons/CDSIcons.eot";
 $config-icons-path-ttf: "~@circutor/ui/cdsicons/CDSIcons.ttf";
 $config-icons-path-woff: "~@circutor/ui/cdsicons/CDSIcons.woff";
 $config-icons-path-svg: "~@circutor/ui/cdsicons/CDSIcons.svg";
+
+$_light-accents: (
+  "primary": #e40040,
+  "danger": #a9322c,
+);
+$_dark-accents: (
+  "primary": #f60845,
+  "danger": #a9322c,
+);
+
+$cds-size-factor: 1;
+$cds-global-border-radius: 999rem;
+$_layout-header-height: 4.5rem;
 
 @import "@circutor/ui/scss/common/cds-bundle.scss";
 
@@ -29,4 +42,16 @@ body {
   width: 4px;
   height: 4px;
   display: none;
+}
+
+
+.cdsr-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  &__title{
+    @include cds-head-m;
+  }
 }

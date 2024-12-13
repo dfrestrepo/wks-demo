@@ -9,8 +9,8 @@ dependencies:
     specifier: 1.3.7
     version: 1.3.7(react-dom@18.2.0)(react@18.2.0)
   '@circutor/ui':
-    specifier: 3.2.0
-    version: 3.2.0
+    specifier: 4.0.0
+    version: 4.0.0
   next:
     specifier: 14.1.0
     version: 14.1.0(react-dom@18.2.0)(react@18.2.0)(sass@1.70.0)
@@ -52,13 +52,13 @@ packages:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@circutor/ui': 3.2.0
+      '@circutor/ui': 4.0.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@circutor/ui@3.2.0:
-    resolution: {integrity: sha512-FyQBw5iYPYs83FNhmQaBcg6BbE2atnlpvxtUhvmDeHDhm7wxYNePyynS5Y60siuDZ6FMTRQLGgONCGCJFt5pqQ==}
+  /@circutor/ui@4.0.0:
+    resolution: {integrity: sha512-Pr3H0tMqj6+K7LMBfM2AnPnz4TcWUQrCmpUvEhqItQC6fWINTLG89gJHcQR/WgHdo8YoTmMyaiKExEPcd/qHgA==}
     dev: false
 
   /@eslint-community/eslint-utils@4.4.0(eslint@8.56.0):
